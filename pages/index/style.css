@@ -1,0 +1,132 @@
+.main {}
+
+.findMusic {
+	background-color: #f4f4f4;
+	padding: 10px;
+}
+
+.sou_input {
+
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+}
+
+.search_bar_cont {
+	border-radius: 3px;
+	background: #fff;
+	height: 20px;
+	padding: 8px 12px 12px 10px;
+}
+
+.picker_bar {
+	margin-top: 10px;
+}
+
+.context {
+	padding-left: 25upx;
+	padding-right: 25upx;
+}
+
+.button_bar {
+	margin-top: 10px;
+}
+
+.pick_text {
+	font-size: 14px;
+	color: #666;
+}
+
+.showContext {
+	margin-top: 20px;
+}
+
+.songContext {
+	font-size: 16px;
+	display: flex;
+}
+
+.song_sin {
+	flex: 6;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.song_ply {
+	text-align: center;
+	flex: 1;
+	font-size: 20px;
+}
+
+.songContext {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #c8c7cc;
+}
+
+.audio_box {
+	display: flex;
+	border: 1px solid #c8c7cc;
+}
+
+.box_left {
+	flex: 1;
+
+}
+
+.box_righ {
+	flex: 6;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lef_img {
+	padding: 7px 10px 0px 8px;
+	width: 50px;
+	height: 50px;
+}
+
+.box_top {
+	
+	
+	
+	padding-top: 5px;
+	font-size: 16px;
+	
+}
+
+.box_btom {
+	padding-top: 5px;
+	font-size: 14px;
+	color: #666;
+}
+
+.box_button {
+	flex: 1;
+	line-height: 59px;
+	padding: 0px 10px 0 5px;
+	font-size: 30px;
+}
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1053908 */
+  src: url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.eot');
+  src: url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1053908_nyehxzpudvc.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: iconfont;
+	
+}
+.play_Context{
+	width: 750upx;
+	position: fixed;
+	bottom: 0;
+}

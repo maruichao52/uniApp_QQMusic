@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/aboutMe/aboutMe"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "light",
+    "navigationBarTitleText": "芊芊音乐",
+    "navigationBarBackgroundColor": "#31c27c",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "QQMusic"
+}

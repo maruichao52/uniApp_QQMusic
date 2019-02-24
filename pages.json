@@ -1,0 +1,42 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style":{
+				"navigationBarTextStyle":"white"
+			}
+			
+		},
+		{
+			"path":"pages/aboutMe/aboutMe",
+			"style":{
+				"navigationBarTextStyle":"white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "light",
+		"navigationBarTitleText": "芊芊音乐",
+		"navigationBarBackgroundColor": "#31c27c",
+		"backgroundColor": "#F8F8F8"
+	}
+// 	"tabBar":{
+// 		"color":"#707070",
+// 		"selectedColor":"#31c27c",
+// 		"backgroundColor":"#fff",
+// 		"list":[
+// 			{
+// 				"pagePath":"pages/index/index",
+// 				"text":"搜索",
+// 				"iconPath":"static/搜索%20(1).png",
+// 				"selectedIconPath":"static/搜索.png"
+// 			},
+// 			{
+// 				"pagePath":"pages/aboutMe/aboutMe",
+// 				"text":"我的",
+// 				"iconPath":"static/我的%20(1).png",
+// 				"selectedIconPath":"static/我的.png"
+// 			}
+// 		]
+// 	}
+}
